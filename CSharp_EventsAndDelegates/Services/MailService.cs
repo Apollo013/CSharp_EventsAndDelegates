@@ -3,6 +3,9 @@ using System;
 
 namespace CSharp_EventsAndDelegates.Services
 {
+    /// <summary>
+    /// Subscriber to AccountProcessed event
+    /// </summary>
     public class MailService
     {
         public void OnAccountProcesed(object source, AccountEventArgs e)
